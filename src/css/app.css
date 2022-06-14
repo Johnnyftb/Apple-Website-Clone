@@ -1,0 +1,10 @@
+/* Navbar */
+.navbar {
+    height: 4vh;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.navbar p {
+    font-size: 12px;
+    cursor: pointer;
+}

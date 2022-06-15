@@ -1,3 +1,7 @@
+.app {
+    overflow: hidden;
+}
+
 /* Navbar */
 .navbar {
     height: 4vh;
@@ -7,4 +11,47 @@
 .navbar p {
     font-size: 12px;
     cursor: pointer;
+}
+
+/* Hero */
+.hero {
+}
+
+.hero .my-3 {
+    height: 70vh;
+    position: relative;
+}
+
+.hero .image-container {
+    position: absolute;
+    z-index: 0;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero .container img {
+    width: 250px;
+}
+
+/* Showcase */
+.showcase .w-50 {
+    height: 60vh;
+    position: relative;
+}
+
+.showcase .w-50 .image-container {
+    position: absolute;
+    z-index: 0;
+}
+
+.showcase .w-50 .container {
+    position: relative;
+    z-index: 1;
+}
+
+.showcase .watch img {
+    width: 200px;
 }

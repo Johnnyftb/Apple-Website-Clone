@@ -14,8 +14,6 @@
 }
 
 /* Hero */
-.hero {
-}
 
 .hero .my-3 {
     height: 70vh;
@@ -54,4 +52,9 @@
 
 .showcase .watch img {
     width: 200px;
+}
+
+.showcase .apple-tv .container .logo {
+    position: absolute;
+    top: 0;
 }

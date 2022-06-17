@@ -44,19 +44,41 @@ const Showcase = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-50 bg-white p-2">
-                    <div className="image-container d-flex justify-content-center align-items-center h-100 w-100">
-                        <img src="/images/showcase/store.jpg" alt="" className="h-100 w-100"/>
-                    </div>
-                </div>
-                <div className="w-50 bg-white p-2">
+                <div className="ipad w-50 bg-white p-2">
                     <div className="image-container d-flex justify-content-center align-items-center h-100 w-100">
                         <img src="/images/showcase/ipad.jpg" alt="" className="h-100 w-100"/>
                     </div>
+                    <div className="container w-100 d-flex align-items-center flex-column text-light p-5">
+                        <img src="/images/showcase/ipad_air_logo.png" alt=""/>
+                        <p className="lead mb-2">Light. Bright. Full of might.</p>
+                        <div className="d-flex align-items-center">
+                            <p className="text-primary text-poppins-300 mx-3 mb-0">Learn More <i className="fa fa-angle-right fa-md ms-1"></i></p>
+                            <p className="text-primary text-poppins-300 mx-3 mb-0">Buy <i className="fa fa-angle-right fa-md ms-1"></i></p>
+                        </div>
+                    </div>
                 </div>
-                <div className="w-50 bg-white p-2">
+                <div className="airpods w-50 bg-white p-2">
+                    <div className="image-container d-flex justify-content-center align-items-end h-100 w-100 bg-black">
+                        <img src="/images/showcase/airpods.jpg" alt="" className="h-50"/>
+                    </div>
+                    <div className="container w-100 d-flex align-items-center flex-column text-light p-5">
+                        <h1 className="text-poppins-600 mb-1">AirPods Pro</h1>
+                        <p className="lead mb-2 text-poppins-300">Magic like you've never heard.</p>
+                        <div className="d-flex align-items-center">
+                            <p className="text-primary text-poppins-300 mx-3 mb-0">Learn More <i className="fa fa-angle-right fa-md ms-1"></i></p>
+                            <p className="text-primary text-poppins-300 mx-3 mb-0">Buy <i className="fa fa-angle-right fa-md ms-1"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div className="apple-tv w-50 bg-white p-2">
                     <div className="image-container d-flex justify-content-center align-items-center h-100 w-100">
                         <img src="/images/showcase/tv.jpg" alt="" className="h-100 w-100"/>
+                    </div>
+                    <div className="container w-100 d-flex justify-content-end align-items-center flex-column text-light p-5 h-100">
+                        <img src="/images/showcase/apple_tv_logo.png" alt="" className="logo mt-5"/>
+                        <img src="/images/showcase/for_all_mankind.png" alt="" className="mb-2 w-25"/>
+                        <img src="/images/showcase/mars-1995.png" alt="" className="mb-2 w-25"/>
+                        <p className="lead">Stream new episodes <i className="fa fa-circle-play fa-md"></i></p>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-import { Navbar, Hero, Showcase } from "./components/index";
+import { Navbar, Hero, Showcase, Footer } from "./components/index";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/utilities.css';
@@ -11,6 +11,7 @@ const App = () => {
             <Navbar />
             <Hero />
             <Showcase />
+            <Footer />
         </div>
     )
 }
